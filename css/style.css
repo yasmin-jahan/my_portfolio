@@ -366,7 +366,6 @@ body {
 .toggle_btn {
     color: var(--primary-color);
     font-size: 30px;
-    /* display: none; */
     border: 1px solid var(--primary-color);
     padding: 0px 12px;
     border-radius: 3px;
