@@ -83,6 +83,7 @@ display: block;
     justify-content: space-between;
     padding:10px 20px;
 }
+
 .sidebar {
     transform: translateX(-100%);
 }
@@ -92,7 +93,7 @@ display: block;
 .main_wrapper {
  width: 100%;
 }
-.toggle_btn a i{
+.toggle_btn {
     display: block;
 }
 .hamburger_menu_section {
