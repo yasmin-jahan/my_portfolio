@@ -336,6 +336,7 @@ body {
     z-index: 999;
     background-color: #fff;
     width: 100%;
+    display: none;
 
 }
  .logo h2 a{
@@ -369,6 +370,7 @@ body {
     border: 1px solid var(--primary-color);
     padding: 0px 12px;
     border-radius: 3px;
+    display: none;
 }
 .home_section .animated {
     transform: translateY(30px);
