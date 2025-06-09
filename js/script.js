@@ -43,7 +43,7 @@ $('.counter_content h3').addClass('animated fadeIn');
     if (scrollTop > 50) {
       header.css('top', '0'); // Show header
     } else {
-      header.css('top', '-70px'); // Hide header
+      header.css('top', '-80px'); // Hide header
     }
   });
 });
