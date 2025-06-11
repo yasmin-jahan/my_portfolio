@@ -104,15 +104,15 @@
 .cross{
 display: block;
 }
-.hamburger_menu_section{
+/* .hamburger_menu_section{
     justify-content: space-between;
     padding:10px 20px;
-}
+} */
 
 .sidebar {
     transform: translateX(-100%);
 }
-.sidebar.mobile_active {
+.sidebar.mobile {
     transform: translateX(0);
 }
 .main_wrapper {
