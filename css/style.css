@@ -146,6 +146,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .profile_bio p {
@@ -533,8 +534,8 @@ font-size: 50px;
 
 .main_profile_image_area {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
     border: 2px solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 20px #fff;
@@ -542,8 +543,8 @@ font-size: 50px;
 }
 
 .main_home-image {
-    max-width: 400px;
-    height: 400px;
+    max-width: 370px;
+    height: 370px;
 }
 
 .main_profile_image_area .main_home-image img {
@@ -953,7 +954,6 @@ font-weight: 500;
 /* footer-section-starts */
 .footer_section{
     padding: 30px 0;
-    /* border-top: 1px solid var(--theme-color); */
 }
 .copyright_content{
     text-align: center;
