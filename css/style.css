@@ -23,7 +23,7 @@
     --secondary-color:#292929;
     --text-bold:#161414;
     --text2-color:#fff;
-    
+    --border-color:#c3bbbb3b;
 }
 
 * {
@@ -104,6 +104,7 @@ body {
     scrollbar-width: thin;
     padding: 20px;
     z-index: 99;
+    transition: all .6s ease-in-out;
 }
 .overlay {
     position: fixed;
@@ -668,6 +669,9 @@ font-size: 50px;
     text-decoration: none;
     color: var(--text-bold);
 }
+.about_detail h4 .about_link_color {
+   color: var(--theme-color);
+}
 /* .about_detail h4 span {
     font-size: 18px;
 } */
@@ -954,6 +958,7 @@ font-weight: 500;
 /* footer-section-starts */
 .footer_section{
     padding: 30px 0;
+    border-top:1px solid var(--border-color);
 }
 .copyright_content{
     text-align: center;
@@ -1000,6 +1005,34 @@ font-weight: 500;
     position: relative;
     z-index: 1;
     padding: 40px 0;
+
+    
+}
+.common_banner .animated {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slide-in 1s ease forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slide-in {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.about_banner_wrpapper{
+    position: relative;
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    transform: scale(0);
+    animation: zoom-in 1s ease forwards;
+}
+.common_banner_area{
+    padding: 0 30px;
 }
 .common_banner::before{
     content: "";
@@ -1010,7 +1043,24 @@ font-weight: 500;
     inset: 0;
     z-index: -1;
 }
-.common_banner_image{
+.title_badge{
+    color: var(--secondary-color);
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background:var(--text2-color);
+    border-radius: 30px;
+    padding: 8px 22px;
+}
+.title_badge i{
+    margin-right: 8px;
+}
+
+.about_title h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+/* .common_banner_image{
     max-width: 270px;
     height: 270px;
 }
@@ -1018,9 +1068,10 @@ font-weight: 500;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.common_banner_text_area{
+} */
+/* .common_banner_text_area{
 margin-left: auto;
+
 }
 .common_banner_text_area h3{
     font-size: 22px;
@@ -1030,8 +1081,8 @@ margin-left: auto;
     text-decoration: none;
     font-size: 55px;
     color: var(--theme-color);
-}
-.common_banner_text_area p{
+} */
+/* .common_banner_text_area p{
     font-size: 18px;
     color: var(--text2-color);
     font-weight: 400;
@@ -1040,7 +1091,23 @@ margin-left: auto;
     font-size: 20px;
     color: var(--text2-color);
     font-weight: 500;
+} */
+
+
+
+.about_title p{
+    font-size: 19px;
+    color: var(--text2-color);
+    font-weight: 400;
+    
 }
+.about_title p a{
+    font-size: 21px;
+    text-decoration: none;
+    color: var(--theme-color);
+    font-weight: 600;
+}
+
 /* about-banner-section-ends */
 
 /* about-page-ends */

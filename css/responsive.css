@@ -121,6 +121,9 @@ display: block;
 .toggle_btn {
     display: block;
 }
+.logo .blog_name{
+    margin-bottom: 0;
+}
 .hamburger_menu_section {
     position: fixed;
   top: 0;
@@ -411,16 +414,16 @@ font-size: 14px;
     padding: 15px 0;
 }
 .contact_number span {
-    font-size: 18px;
+    font-size: 16px;
 }
 .contact_number a {
-   font-size: 18px;
+   font-size: 16px;
 }
 .footer_section {
     padding: 15px 0;
 }
 .copyright_content a {
-    font-size: 15px;
+    font-size: 14px;
 }
     /* contact-section-ends */
 }
