@@ -108,7 +108,9 @@ display: block;
     justify-content: space-between;
     padding:10px 20px;
 } */
-
+.second_title {
+    margin-bottom: 30px;
+}
 .sidebar {
     transform: translateX(-100%);
 }
@@ -120,6 +122,11 @@ display: block;
 }
 .toggle_btn {
     display: block;
+}
+.toggle_btn img{
+    height: 40px;
+    width: 40px;
+    object-fit: scale-down;
 }
 .logo .blog_name{
     margin-bottom: 0;
@@ -234,8 +241,11 @@ display: block;
     .main_header ul li a {
  font-size: 16px;
 }
-    /* sidebar-section-starts */
-
+    /* sidebar-section-ends */
+.toggle_btn img {
+    height: 30px;
+    width: 30px;
+}
     /* home-section-starts */
     .main_profile_image_area {
     width: 220px;
@@ -361,7 +371,6 @@ font-size: 14px;
 }
 .second_title::before {
     width: 45px;
-    bottom: 9px;
 }
 .about_content p {
     padding-top: 8px;
@@ -498,6 +507,15 @@ display: block;
 }
 
 
+@media only screen and (max-width: 360px){
+    .portfolio_wrapper h4 {
+    font-size: 18px;
+}
+.footer_section a span {
+    display: block;
+}
+}
+
 
 
 
@@ -541,13 +559,13 @@ display: block;
 
 @media only screen and (max-width: 991px){
     /* banner-section-starts */
-    .about_title h2 {
+    .common_banner_title h2 {
     font-size: 30px;
 }
-    .about_title p {
+    .common_banner_title p {
     font-size: 18px;
 }
-.about_title p a {
+.common_banner_title p a {
     font-size: 20px;
 }
     /* banner-section-ends */
@@ -556,7 +574,7 @@ display: block;
 
 @media only screen and (max-width: 767px){
     /* banner-section-starts */
-    .about_title{
+    .common_banner_title{
         text-align: center;
     }
     .banner_commom_btn {
@@ -566,10 +584,10 @@ display: block;
 .title_badge {
   font-size: 15px;
 }
-.about_title p {
+.common_banner_title p {
     font-size: 17px;
 }
-.about_title p a {
+.common_banner_title p a {
     font-size: 19px;
 }
     /* banner-section-ends */
@@ -592,10 +610,10 @@ display: block;
     padding: 6px 18px;
     margin-bottom: 15px;
 }
-.about_title h2 {
+.common_banner_title h2 {
     font-size: 28px;
 }
-.about_title p {
+.common_banner_title p {
     font-size: 16px;
 }
 .about_title p a {
@@ -610,19 +628,19 @@ display: block;
     .title_badge {
     padding: 5px 16px;
 }
-    .about_title h2 {
+    .common_banner_title h2 {
     font-size: 26px;
 }
-.about_title p {
+.common_banner_title p {
     font-size: 15px;
 }
 .common_banner_area {
     padding: 0 15px;
 }
-.about_banner_wrpapper {
+.common_banner_wrapper {
     padding: 25px 0;
 }
-.about_title p a {
+.common_banner_title p a {
     font-size: 16px;
 }
     /* banner-section-ends */
