@@ -511,6 +511,30 @@ display: block;
     .portfolio_wrapper h4 {
     font-size: 18px;
 }
+
+/* project-section-starts */
+.portfolio_text p {
+    font-size: 16px;
+}
+/* project-section-ends */
+
+/* contact-section-starts */
+.contact_text_area p {
+    font-size: 15px;
+    padding: 12px 0;
+}
+.contact_number span {
+    font-size: 15px;
+}
+.contact_number a {
+    font-size: 14px;
+    padding: 7px;
+}
+.contact_common_content {
+    padding: 20px 14px;
+}
+/* contact-section-ends */
+
 .footer_section a span {
     display: block;
 }
