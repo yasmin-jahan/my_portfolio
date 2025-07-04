@@ -5,6 +5,22 @@
     .home_section {
     padding: 40px;
 }
+.about_section {
+    padding: 50px 40px;
+}
+.counter_section {
+    padding: 40px;
+   
+}
+.portfolio_section {
+    padding: 50px 40px;
+}
+.skills_section {
+    padding: 50px 40px;
+}
+.contact_section {
+    padding: 50px 40px;
+}
 }
 
 @media only screen and (max-width: 1400px){
@@ -96,7 +112,9 @@
 }
 
 @media only screen and (max-width: 991px){
-
+.home_section {
+    padding-top: 115px;
+}
     .logo h2 a{
             width: 100%;
         display: block;
@@ -143,7 +161,7 @@ display: block;
   align-items: center;
   transition: top 0.3s ease;
   z-index: 9;
-  top: -80px; /* Hidden by default */
+  /* top: -80px; Hidden by default */
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 /* about-section-starts */
@@ -221,10 +239,11 @@ display: block;
 
 /* footer-section-starts */
 .footer_section {
+    width: 100%;
     padding: 20px 0;
 }
-.copyright_content a {
-   font-size: 17px;
+.copyright_content {
+    font-size: 17px;
 }
 /* footer-section-ends */
 }
@@ -340,6 +359,7 @@ font-size: 14px;
     /* home-section-starts */
       .home_section {
     padding: 20px 0;
+    padding-top: 110px;
 }
     .main_home-image {
     max-width: 160px;
@@ -431,9 +451,10 @@ font-size: 14px;
 .footer_section {
     padding: 15px 0;
 }
-.copyright_content a {
+.copyright_content {
     font-size: 14px;
 }
+
     /* contact-section-ends */
 }
 
@@ -453,7 +474,9 @@ font-size: 14px;
     /* hamburger-section-ends */
     
     /* home-section-starts */
-  
+  .home_section {
+    padding-top: 80px;
+}
   .home_section .home_wrapper {
    padding: 30px 0;
 }
@@ -485,6 +508,13 @@ display: block;
     padding-bottom: 25px;
 }
     /* counter-section-ends */
+
+    /* footer-section-starts */
+    .contact_number a {
+    font-size: 13px;
+    padding: 8px;
+}
+    /* footer-section-ends */
 }
 
 @media only screen and (max-width: 360px){
@@ -538,6 +568,13 @@ display: block;
 .footer_section a span {
     display: block;
 }
+.contact_number span {
+    font-size: 14px;
+}
+.contact_number a {
+    font-size: 12px;
+    padding: 7px;
+}
 }
 
 
@@ -582,6 +619,13 @@ display: block;
 }
 
 @media only screen and (max-width: 991px){
+    /* hero-section-starts */
+    .common_banner {
+   padding-top: 105px;
+}
+    /* hero-section-ends */
+
+
     /* banner-section-starts */
     .common_banner_title h2 {
     font-size: 30px;
@@ -623,6 +667,7 @@ display: block;
     /* banner-section-starts */
     .common_banner {
     padding: 20px 0;
+    padding-top: 87px;
 }
     .about_banner_wrpapper {
     padding: 30px 0;
@@ -648,6 +693,10 @@ display: block;
 
 
 @media only screen and (max-width: 480px){
+    .common_banner {
+    padding: 20px 0;
+    padding-top: 75px;
+}
     /* banner-section-starts */
     .title_badge {
     padding: 5px 16px;
