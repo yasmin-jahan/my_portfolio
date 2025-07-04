@@ -556,12 +556,8 @@ display: block;
 .contact_number span {
     font-size: 15px;
 }
-.contact_number a {
-    font-size: 14px;
-    padding: 7px;
-}
 .contact_common_content {
-    padding: 20px 14px;
+    padding: 20px 12px;
 }
 /* contact-section-ends */
 
@@ -569,15 +565,22 @@ display: block;
     display: block;
 }
 .contact_number span {
-    font-size: 14px;
+    font-size: 13px;
 }
+.contact_number a {
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 2px;
+}
+}
+
+@media only screen and (max-width: 320px){
 .contact_number a {
     font-size: 12px;
     padding: 7px;
 }
+
 }
-
-
 
 
 
