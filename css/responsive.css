@@ -34,6 +34,13 @@
     height: 300px;
 }
     /* home-section-ends */
+    
+    /* about-section-starts */
+      .about_detail h4 {
+    font-size: 19px;
+}
+    /* about-section-ends */
+  
 }
 
 @media only screen and (max-width: 1199px){
@@ -70,6 +77,10 @@
 /* home-section-end */
 
 /* about-section-starts */
+.about_detail ul {
+    margin-bottom: 0;
+}
+
 .about_content p {
     font-size: 18px;
 }
@@ -307,7 +318,7 @@ font-size: 14px;
     font-size: 16px;
 }
 .about_detail h4 {
-    font-size: 20px;
+    font-size: 16px;
 }
 .about_detail ul li i::before {
     font-size: 19px;
@@ -519,7 +530,7 @@ display: block;
 
 @media only screen and (max-width: 360px){
     .about_detail h4 {
-    font-size: 16px;
+    font-size: 14px;
 }
 .about_detail ul li i::before {
     font-size: 16px;
