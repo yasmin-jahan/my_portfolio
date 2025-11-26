@@ -459,7 +459,6 @@ font-size: 50px;
     background-color: #000;
     color: #fff;
     padding: 10px 20px;
-    display: flex;
     column-gap: 5px;
     align-items: baseline;
 }
@@ -672,18 +671,7 @@ font-size: 50px;
     font-size: 25px;
     color: var(--secondary-color);
 }
-/* @media (max-width: 991px) {
-    .c-counter__col {
-        border-right: 0px dashed black;
-        border-bottom: 1px dashed black;
-        width: 50%;
-        margin: auto auto;
-    }
 
-    .c-counter__col:last-child {
-        border-bottom: 0px dashed black;
-    }
-} */
 
 /* counter-section-end */
 
@@ -692,15 +680,11 @@ font-size: 50px;
 /* portfolio-section-starts */
 .portfolio_section {
     padding: 50px 0;
-    /* background-color: rgb(247, 208, 214); */
 }
 
 .portfolio_content_area {
-    /* height: 500px; */
-    /* height: 100%; */
     padding: 20px;
     border-radius: 10px;
-    /* box-shadow: 0 0 20px rgb(211 174 210 / 60%); */
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
@@ -846,7 +830,6 @@ row-gap: 50px;
     font-weight: 700;
     color: #000;
 }
-
 /* skills-section-ends */
 
 /* contact-section-starts */
@@ -1105,3 +1088,7 @@ margin-left: auto;
 
 /* about-page-ends */
 /* about-page-ends */
+
+
+
+
